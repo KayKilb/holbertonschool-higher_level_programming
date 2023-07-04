@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # gets all states via python
-
+import MySQLdb
+import sys
 
 def main(args):
     # gets all state stuff
@@ -18,6 +19,4 @@ def main(args):
 
 
 if __name__ == "__main__":
-    import sys
-    import MySQLdb
     main(sys.argv)
